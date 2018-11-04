@@ -1,0 +1,342 @@
+html body{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+p{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 940px;
+}
+
+.start{
+	padding: 8px 30px;
+	margin: 0;
+	font-size: 18px;
+	font-family: "Oswald", sans-serif;
+}
+
+
+/*---------------Pill------------*/
+
+#pill{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background: #222;
+	border-radius: 30px;
+	cursor: pointer;
+	font-family: "Oswald", sans-serif;
+	letter-spacing: normal;
+	width: 207px;
+	height: 52px;
+	line-height: normal;
+	white-space: nowrap;
+	text-align: left !important;
+	z-index: 100;
+	font-size: 16px;
+}
+
+#pilltext{
+	color: #fff;
+	position: relative;
+	left: 50px;
+	top: -7px;
+	font-size: 20px;
+}
+
+#pilltext a{
+	color: #fff;
+}
+
+/*---------Main---------*/
+
+.main{
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg) no-repeat center center;
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+}
+
+.main .container{
+	position: relative;
+	top: 100px;
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+}
+
+.main h1{	
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: bold;
+	font-size: 150px;
+}
+
+.main p{
+	margin: 0 0 20px 0;
+	font-size: 18px;
+}
+
+.main .start{
+	background-color: #1c1c1c;
+}
+
+.main .start:hover{
+	background-color: #ffa800;
+	color: #000;
+}
+
+/*---------Supporting--------------*/
+
+.supporting{
+	background-color: #1c1c1c;
+	padding: 50px 0 80px;
+	text-align: center;
+}
+
+.col{
+	display: inline-block;
+	width: 28%;
+}
+
+.supporting h2{
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	color: #ffa800;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.supporting p{
+	color: #fff;
+	line-height: 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+/*---------Feature--------------*/
+
+.feature{
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg) no-repeat center center;
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	padding-top: 1px;
+}
+
+.feature .container{
+	position: relative;
+	top: 200px;
+}
+
+.feature h2{
+	color: #fff;
+	font-size: 60px;
+	font-family: "Oswald", sans-serif;
+	padding: 50px 0 0;
+	text-transform: uppercase;
+}
+
+/*------------ 2nd Supporting-----------*/
+
+.supporting .start{
+	background-color: #eee;
+	color: #1c1c1c;
+}
+
+.supporting .start:hover{
+	background-color: #ffa800;
+	color: #000;
+}
+
+/*----------Footer-----------*/
+
+.footer{
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg) no-repeat center center;
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	padding-top: 1px;
+}
+
+.footer .container{
+	position: relative;
+	top: 200px;
+}
+
+.footer h1{
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	font-size: 50px;
+}
+
+.footer .start{
+	background-color: #eee;
+	color: #1c1c1c;
+}
+
+.footer .start:hover{
+	background-color: #ffa800;
+	color: #000;
+}
+
+/*--------------SubPage---------------*/
+
+/*-----------Submain----------------*/
+
+.submain{
+	background: url(http://josephjennings3.com/move/img/move1.jpg) no-repeat center center;
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+}
+
+.submain .container{
+	position: relative;
+	top: 100px;
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+}
+
+.submain h1{	
+	text-transform: uppercase;
+	margin: 0;
+	font-weight: bold;
+	font-size: 150px;
+}
+
+.submain p{
+	margin: 0 0 20px 0;
+	font-size: 18px;
+}
+
+.submain .start{
+	background-color: #1c1c1c;
+}
+
+.submain .start:hover{
+	background-color: #ffa800;
+	color: #000;
+}
+
+/*-----------SubSupport------------*/
+
+.subsupporting{
+	background-color: #1c1c1c;
+	padding: 50px 0 80px;
+	text-align: center;
+}
+
+.subsupporting h2{
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	color: #00c700;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.subsupporting p{
+	color: #fff;
+	line-height: 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+/*-----------SubFeature------------*/
+
+.subfeature{
+	background: url(http://www.josephjennings3.com/move/img/move2.jpg) no-repeat center center;
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	padding-top: 1px;
+}
+
+.subfeature .container{
+	position: relative;
+	top: 200px;
+}
+
+.subfeature h2{
+	color: #fff;
+	font-size: 60px;
+	font-family: "Oswald", sans-serif;
+	padding: 50px 0 0;
+	text-transform: uppercase;
+}
+
+/*------------SubSupport2-------------*/
+
+.subsupporting2 .start{
+	background-color: #eee;
+	color: #1c1c1c;
+}
+
+.subsupporting2 .start:hover{
+	background-color: #ff0505;
+	color: #000;
+}
+
+.subsupporting2{
+	background-color: #1c1c1c;
+	padding: 50px 0 80px;
+	text-align: center;
+}
+
+.subsupporting2 h2{
+	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
+	color: #ff0505;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.subsupporting2 p{
+	color: #fff;
+	line-height: 20px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+/*------------------SubFooter----------------*/
+
+.subfooter{
+	background: url(http://www.josephjennings3.com/move/img/move3.jpg) no-repeat center center;
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	padding-top: 1px;
+}
+
+.subfooter .container{
+	position: relative;
+	top: 200px;
+}
+
+.subfooter h1{
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	font-size: 50px;
+}
+
+.subfooter .start{
+	background-color: #eee;
+	color: #1c1c1c;
+}
+
+.subfooter .start:hover{
+	background-color: #ee5fe0;
+	color: #000;
+}
