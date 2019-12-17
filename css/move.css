@@ -197,7 +197,7 @@ p{
 /*-----------Submain----------------*/
 
 .submain{
-	background: url(http://josephjennings3.com/move/img/move1.jpg) no-repeat center center;
+	background: url(../img/move1.jpg) no-repeat center center;
 	background-size: cover;
 	height: 600px;
 	text-align: center;
@@ -257,7 +257,7 @@ p{
 /*-----------SubFeature------------*/
 
 .subfeature{
-	background: url(http://www.josephjennings3.com/move/img/move2.jpg) no-repeat center center;
+	background: url(../img/move2.jpg) no-repeat center center;
 	background-size: cover;
 	height: 600px;
 	text-align: center;
@@ -313,7 +313,7 @@ p{
 /*------------------SubFooter----------------*/
 
 .subfooter{
-	background: url(http://www.josephjennings3.com/move/img/move3.jpg) no-repeat center center;
+	background: url(../img/move3.jpg) no-repeat center center;
 	background-size: cover;
 	height: 600px;
 	text-align: center;
@@ -339,4 +339,34 @@ p{
 .subfooter .start:hover{
 	background-color: #ee5fe0;
 	color: #000;
+}
+
+/* ------- MOBILE ------- */
+
+@media only screen and (max-width: 800px) {
+
+	#pill {
+		display: none;
+	}
+
+	.flex_column {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.col {
+		width: 100%;
+	}
+
+	.submain h1 {
+		font-size: 500%;
+	}
+
+	.subfooter{
+		background: url(../img/move3.jpg) no-repeat right center;
+		background-size: cover;
+		height: 600px;
+		text-align: center;
+		padding-top: 1px;
+	}
 }
